@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8769677318BE6B1300798671 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DE1819C1717EADC0067A26B /* Foundation.framework */; };
+		8769677818BE6B1300798671 /* M3U8Lib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8769677718BE6B1300798671 /* M3U8Lib.h */; };
+		8769677A18BE6B1300798671 /* M3U8Lib.m in Sources */ = {isa = PBXBuildFile; fileRef = 8769677918BE6B1300798671 /* M3U8Lib.m */; };
+		8769678118BE6B1300798671 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8769678018BE6B1300798671 /* XCTest.framework */; };
+		8769678218BE6B1300798671 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DE1819C1717EADC0067A26B /* Foundation.framework */; };
+		8769678418BE6B1300798671 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8769678318BE6B1300798671 /* UIKit.framework */; };
+		8769678718BE6B1300798671 /* libM3U8Lib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8769677218BE6B1300798671 /* libM3U8Lib.a */; };
+		8769678D18BE6B1300798671 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8769678B18BE6B1300798671 /* InfoPlist.strings */; };
+		8769678F18BE6B1300798671 /* M3U8LibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8769678E18BE6B1300798671 /* M3U8LibTests.m */; };
+		8769679618BE6B6E00798671 /* M3U8ExtXStreamInf.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D08DDE21720D7A4006547F9 /* M3U8ExtXStreamInf.m */; };
+		8769679718BE6B6E00798671 /* M3U8ExtXStreamInfList.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D08DDE41720D7A4006547F9 /* M3U8ExtXStreamInfList.m */; };
+		8769679818BE6B6E00798671 /* M3U8Parser.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE181AD1717EB480067A26B /* M3U8Parser.m */; };
+		8769679918BE6B6E00798671 /* M3U8SegmentInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE181AF1717EB480067A26B /* M3U8SegmentInfo.m */; };
+		8769679A18BE6B6E00798671 /* M3U8SegmentInfoList.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE181B11717EB480067A26B /* M3U8SegmentInfoList.m */; };
+		8769679B18BE6B6E00798671 /* NSString+m3u8.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE181B31717EB480067A26B /* NSString+m3u8.m */; };
+		8769679C18BE6B6E00798671 /* NSURL+m3u8.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE181B51717EB480067A26B /* NSURL+m3u8.m */; };
 		9D08DDE51720D7A4006547F9 /* M3U8ExtXStreamInf.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D08DDE11720D7A4006547F9 /* M3U8ExtXStreamInf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D08DDE61720D7A4006547F9 /* M3U8ExtXStreamInf.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D08DDE21720D7A4006547F9 /* M3U8ExtXStreamInf.m */; };
 		9D08DDE71720D7A4006547F9 /* M3U8ExtXStreamInfList.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D08DDE31720D7A4006547F9 /* M3U8ExtXStreamInfList.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -26,7 +42,40 @@
 		9DE181C11717EB480067A26B /* NSURL+m3u8.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE181B51717EB480067A26B /* NSURL+m3u8.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		8769678518BE6B1300798671 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DE1818D1717EADC0067A26B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8769677118BE6B1300798671;
+			remoteInfo = M3U8Lib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8769677018BE6B1300798671 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				8769677818BE6B1300798671 /* M3U8Lib.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		8769677218BE6B1300798671 /* libM3U8Lib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libM3U8Lib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8769677618BE6B1300798671 /* M3U8Lib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "M3U8Lib-Prefix.pch"; sourceTree = "<group>"; };
+		8769677718BE6B1300798671 /* M3U8Lib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = M3U8Lib.h; sourceTree = "<group>"; };
+		8769677918BE6B1300798671 /* M3U8Lib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = M3U8Lib.m; sourceTree = "<group>"; };
+		8769677F18BE6B1300798671 /* M3U8LibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = M3U8LibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8769678018BE6B1300798671 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8769678318BE6B1300798671 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		8769678A18BE6B1300798671 /* M3U8LibTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "M3U8LibTests-Info.plist"; sourceTree = "<group>"; };
+		8769678C18BE6B1300798671 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8769678E18BE6B1300798671 /* M3U8LibTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = M3U8LibTests.m; sourceTree = "<group>"; };
 		9D08DDE11720D7A4006547F9 /* M3U8ExtXStreamInf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M3U8ExtXStreamInf.h; sourceTree = "<group>"; };
 		9D08DDE21720D7A4006547F9 /* M3U8ExtXStreamInf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M3U8ExtXStreamInf.m; sourceTree = "<group>"; };
 		9D08DDE31720D7A4006547F9 /* M3U8ExtXStreamInfList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M3U8ExtXStreamInfList.h; sourceTree = "<group>"; };
@@ -50,6 +99,25 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8769676F18BE6B1300798671 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8769677318BE6B1300798671 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8769677C18BE6B1300798671 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8769678118BE6B1300798671 /* XCTest.framework in Frameworks */,
+				8769678418BE6B1300798671 /* UIKit.framework in Frameworks */,
+				8769678718BE6B1300798671 /* libM3U8Lib.a in Frameworks */,
+				8769678218BE6B1300798671 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9DE181931717EADC0067A26B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -61,10 +129,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8769677418BE6B1300798671 /* M3U8Lib */ = {
+			isa = PBXGroup;
+			children = (
+				8769677718BE6B1300798671 /* M3U8Lib.h */,
+				8769677918BE6B1300798671 /* M3U8Lib.m */,
+				8769677518BE6B1300798671 /* Supporting Files */,
+			);
+			path = M3U8Lib;
+			sourceTree = "<group>";
+		};
+		8769677518BE6B1300798671 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8769677618BE6B1300798671 /* M3U8Lib-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8769678818BE6B1300798671 /* M3U8LibTests */ = {
+			isa = PBXGroup;
+			children = (
+				8769678E18BE6B1300798671 /* M3U8LibTests.m */,
+				8769678918BE6B1300798671 /* Supporting Files */,
+			);
+			path = M3U8LibTests;
+			sourceTree = "<group>";
+		};
+		8769678918BE6B1300798671 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8769678A18BE6B1300798671 /* M3U8LibTests-Info.plist */,
+				8769678B18BE6B1300798671 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		9DE1818C1717EADC0067A26B = {
 			isa = PBXGroup;
 			children = (
 				9DE1819E1717EADC0067A26B /* M3U8Kit */,
+				8769677418BE6B1300798671 /* M3U8Lib */,
+				8769678818BE6B1300798671 /* M3U8LibTests */,
 				9DE1819B1717EADC0067A26B /* Frameworks */,
 				9DE1819A1717EADC0067A26B /* Products */,
 			);
@@ -74,6 +180,8 @@
 			isa = PBXGroup;
 			children = (
 				9DE181991717EADC0067A26B /* M3U8Kit.framework */,
+				8769677218BE6B1300798671 /* libM3U8Lib.a */,
+				8769677F18BE6B1300798671 /* M3U8LibTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -82,6 +190,8 @@
 			isa = PBXGroup;
 			children = (
 				9DE1819C1717EADC0067A26B /* Foundation.framework */,
+				8769678018BE6B1300798671 /* XCTest.framework */,
+				8769678318BE6B1300798671 /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -164,6 +274,41 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		8769677118BE6B1300798671 /* M3U8Lib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8769679018BE6B1300798671 /* Build configuration list for PBXNativeTarget "M3U8Lib" */;
+			buildPhases = (
+				8769676E18BE6B1300798671 /* Sources */,
+				8769676F18BE6B1300798671 /* Frameworks */,
+				8769677018BE6B1300798671 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = M3U8Lib;
+			productName = M3U8Lib;
+			productReference = 8769677218BE6B1300798671 /* libM3U8Lib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8769677E18BE6B1300798671 /* M3U8LibTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8769679318BE6B1300798671 /* Build configuration list for PBXNativeTarget "M3U8LibTests" */;
+			buildPhases = (
+				8769677B18BE6B1300798671 /* Sources */,
+				8769677C18BE6B1300798671 /* Frameworks */,
+				8769677D18BE6B1300798671 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8769678618BE6B1300798671 /* PBXTargetDependency */,
+			);
+			name = M3U8LibTests;
+			productName = M3U8LibTests;
+			productReference = 8769677F18BE6B1300798671 /* M3U8LibTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		9DE181981717EADC0067A26B /* M3U8Kit */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9DE181A71717EADC0067A26B /* Build configuration list for PBXNativeTarget "M3U8Kit" */;
@@ -191,8 +336,13 @@
 		9DE1818D1717EADC0067A26B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0460;
+				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Jin Sun";
+				TargetAttributes = {
+					8769677E18BE6B1300798671 = {
+						TestTargetID = 9DE181981717EADC0067A26B;
+					};
+				};
 			};
 			buildConfigurationList = 9DE181901717EADC0067A26B /* Build configuration list for PBXProject "M3U8Kit" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -207,11 +357,21 @@
 			projectRoot = "";
 			targets = (
 				9DE181981717EADC0067A26B /* M3U8Kit */,
+				8769677118BE6B1300798671 /* M3U8Lib */,
+				8769677E18BE6B1300798671 /* M3U8LibTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		8769677D18BE6B1300798671 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8769678D18BE6B1300798671 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9DE181951717EADC0067A26B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -265,6 +425,29 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8769676E18BE6B1300798671 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8769679618BE6B6E00798671 /* M3U8ExtXStreamInf.m in Sources */,
+				8769679718BE6B6E00798671 /* M3U8ExtXStreamInfList.m in Sources */,
+				8769679818BE6B6E00798671 /* M3U8Parser.m in Sources */,
+				8769679918BE6B6E00798671 /* M3U8SegmentInfo.m in Sources */,
+				8769679A18BE6B6E00798671 /* M3U8SegmentInfoList.m in Sources */,
+				8769679B18BE6B6E00798671 /* NSString+m3u8.m in Sources */,
+				8769679C18BE6B6E00798671 /* NSURL+m3u8.m in Sources */,
+				8769677A18BE6B1300798671 /* M3U8Lib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8769677B18BE6B1300798671 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8769678F18BE6B1300798671 /* M3U8LibTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9DE181921717EADC0067A26B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -281,7 +464,23 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		8769678618BE6B1300798671 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8769677118BE6B1300798671 /* M3U8Lib */;
+			targetProxy = 8769678518BE6B1300798671 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
+		8769678B18BE6B1300798671 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8769678C18BE6B1300798671 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		9DE181A11717EADC0067A26B /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -293,6 +492,116 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		8769679118BE6B1300798671 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				DSTROOT = /tmp/M3U8Lib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "M3U8Lib/M3U8Lib-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8769679218BE6B1300798671 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				DSTROOT = /tmp/M3U8Lib.dst;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "M3U8Lib/M3U8Lib-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8769679418BE6B1300798671 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "M3U8Lib/M3U8Lib-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = "M3U8LibTests/M3U8LibTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8769679518BE6B1300798671 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "M3U8Lib/M3U8Lib-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = "M3U8LibTests/M3U8LibTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
 		9DE181A51717EADC0067A26B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -318,7 +627,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				ONLY_ACTIVE_ARCH = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -382,6 +691,22 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8769679018BE6B1300798671 /* Build configuration list for PBXNativeTarget "M3U8Lib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8769679118BE6B1300798671 /* Debug */,
+				8769679218BE6B1300798671 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8769679318BE6B1300798671 /* Build configuration list for PBXNativeTarget "M3U8LibTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8769679418BE6B1300798671 /* Debug */,
+				8769679518BE6B1300798671 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		9DE181901717EADC0067A26B /* Build configuration list for PBXProject "M3U8Kit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
